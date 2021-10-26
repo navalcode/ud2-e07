@@ -23,22 +23,7 @@ public class Playlist implements Serializable {
     @Lob
     private String description;
 
-    @ManyToMany(mappedBy = "playlists" )
-    private List<Song> songs = new ArrayList<>();
-
-    //Helpers
-    public void addSong(Song s) {
-        if (this.getSongs() == null)
-            this.setSongs(new ArrayList<>());
-        this.getSongs().add(s);
-
-        if (s.getPlaylists() == null)
-            s.setPlaylists(new ArrayList<>());
-        s.getPlaylists().add(this);
-    }
-
-    public void removeSong(Song s) {
-        s.getPlaylists().remove(this);
-        this.getSongs().remove(s);
-    }
+    @Builder.Default
+    @OneToMany(mappedBy="playlist", fetch = FetchType.EAGER)
+    private List<AddedTo> addedToList = new ArrayList<>();
 }

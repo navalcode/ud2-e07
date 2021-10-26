@@ -26,15 +26,10 @@ public class Song implements Serializable {
     private Artist artist;
 
     private String album;
-
     private String year;
 
-    @ManyToMany
-    @JoinTable(joinColumns = @JoinColumn(name = "song_id"),foreignKey = @ForeignKey(name = "FK_SONG_PLAYLIST"))
-    private List<Playlist> playlists= new ArrayList<>();
-
     @Builder.Default
-    @Embedded
-    private List<AddedTo> addedTo= new ArrayList<>();
+    @OneToMany(mappedBy="song", fetch = FetchType.EAGER)
+    private List<AddedTo> addedToList = new ArrayList<>();
 
 }
