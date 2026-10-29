@@ -9,6 +9,8 @@ import javax.persistence.Embeddable;
 import java.io.Serializable;
 
 @Embeddable
+@lombok.EqualsAndHashCode
+@lombok.AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter

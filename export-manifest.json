@@ -1,0 +1,54 @@
+[
+  {
+    "path": ".gitignore",
+    "sha256": "1d15bdb66e2d42cd0ecddeb6926d7a97dbf7a82a055067b7b9afc05112ee0437"
+  },
+  {
+    "path": "DESIGN.md",
+    "sha256": "6aa2d35302cb329f9a278eaea2bdbe3ee0edccdcc7779de8cbfbdf15d5ed628a"
+  },
+  {
+    "path": "README.es.md",
+    "sha256": "0d503aeef84ea4712568b07780ac8987325408466a766d6259727fb416a0bcaf"
+  },
+  {
+    "path": "README.md",
+    "sha256": "d305db50684360e1b955f93dd33e37e92637c65aaedbe530bff0b8c28485f22a"
+  },
+  {
+    "path": "THIRD_PARTY.md",
+    "sha256": "f5c37dc2448e54c8f567c62ebcf105e8e5a184039a1c2bdad544db909be3b80a"
+  },
+  {
+    "path": "docs/verification.json",
+    "sha256": "562b047096ae38ac916ae93b955915110db68620f3b51203d6ee90562df51477"
+  },
+  {
+    "path": "e07/src/main/java/com/salesianos/triana/e07/models/AddedTo.java",
+    "sha256": "f9b41dba2183ef7f3a86546f39d464033ca6a9e487fcdabb0af525d3f1d60b4e"
+  },
+  {
+    "path": "e07/src/main/java/com/salesianos/triana/e07/models/AddedToPK.java",
+    "sha256": "d155c1e5774f421c5349871bf52366951b96f909de5f6793f063ec57df7ef0c5"
+  },
+  {
+    "path": "e07/src/main/java/com/salesianos/triana/e07/repositories/AddedToRepository.java",
+    "sha256": "bf0ac078ccd1cc5979702276a663000d1051c75d274a8b4cef2dad401ff6db6d"
+  },
+  {
+    "path": "e07/src/main/java/com/salesianos/triana/e07/services/AddedToService.java",
+    "sha256": "b4ec889a12278efcdb0d7a4996411ac107c624918ef8e3d1ce15a4e529357921"
+  },
+  {
+    "path": "e07/src/main/resources/application.properties",
+    "sha256": "17f079240a58eee56ce094c30e797090a731928fb70310de71eb196675914dd3"
+  },
+  {
+    "path": "e07/src/test/java/com/salesianos/triana/e07/MembershipContractTest.java",
+    "sha256": "e2bf2a23ea8f2e1bcc2d4465185fea4454928ae0cb483ed1caba42d085ab1ea0"
+  },
+  {
+    "path": "e07/src/test/java/com/salesianos/triana/e07/MembershipJpaJourneyTest.java",
+    "sha256": "803c255d5c3f3233ede002cfcce8d4922f1804eca2b5c98c42a8a74b9fb70c64"
+  }
+]

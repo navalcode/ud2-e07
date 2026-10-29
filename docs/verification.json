@@ -1,0 +1,43 @@
+{
+  "kind": "recorded_local_result",
+  "checked_on": "2026-10-29",
+  "platform": "macOS",
+  "jdk": {
+    "version": "17.0.14",
+    "vendor": "Amazon.com Inc."
+  },
+  "source_baseline": "9956635c292fb6fa0a5e1714de7752ce912eb391",
+  "test_total": 11,
+  "checks": [
+    {
+      "module": "e07",
+      "command": "sh ./mvnw verify",
+      "junit": {
+        "tests": 11,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "log_sha256": "39cfca241ce20f5e54f0a84bf282aa6bde36c05fbea983e5399b49fcc4cf8107",
+      "junit_xml_sha256": [
+        "52b1eb949bba3a30c736f1e5836964eccafeae6333870b3fb3d9c94bff3420ce",
+        "53cdaefd8540f94906267f8664157f73735ab2ab6612dcbf7912712a33d34159",
+        "68aeeff1a6c3ccfbc9ca11b4277f6f55da8a1737f549aae09df71bec8109e68a"
+      ]
+    }
+  ],
+  "hosted_ci_run": null,
+  "scope": "Local tests/package with original Maven/Spring pins and isolated settings/repository. No hosted CI or production result is implied.",
+  "packaged_runtime": {
+    "repository": "ud2-e07",
+    "artifact_sha256": "3c1e71bb9e27d466b5b574dd081d256ef8ed52041b8d617e8f54111a181eb0bd",
+    "command": "java -jar target/e07-0.0.1-SNAPSHOT.jar --spring.main.web-application-type=none",
+    "exit_code": 0,
+    "packaged_config_matches_reviewed_source": true,
+    "started_with_original_seed": true,
+    "default_database": "memory-only H2",
+    "web_server_enabled": false,
+    "shutdown_completed": true,
+    "scope": "Packaged persistence example startup/seed/shutdown, not a graphical app or HTTP API."
+  }
+}
